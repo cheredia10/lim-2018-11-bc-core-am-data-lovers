@@ -29,7 +29,12 @@
                     <li><span>De</span><select name="rango_a_mostrar" id="select_min_year"></select>
                         <span>Hasta</span> <select name="rango_a_mostrar" id="select_max_year"></select></li>
                     <li><button id="btn_mostrar_años">Buscar</button></li>
-                    <li><span>Ordenar por:</span><select name="order" id="order"></select></li>
+                    <li><span>Ordenar por:</span>
+                        <select id="order"> 
+                          <option>Escoge una opción</option>
+                          <option value="upward">Ascendente</option>
+                          <option value="falling">Descendente</option>
+                        </select></li>
                     <li><span>Calcular por:</span><select name="calc" id="calc"></select></li>
                 </ul>
             </div>
@@ -73,29 +78,25 @@
         Especialmente en este modo de transporte, es importante observar que Estados computan todas las muertes atribuibles al accidente que ocurren dentro de los 30 días de sucedido éste.</p> 
         <p> <b>Transporte por agua:</b> Los datos de Estados Unidos no son comparables en varios aspectos. </p>
     </article>
-    </div> 
+   
 </div>
 
-<div class = "group_data_filter">
-<div class="item1" id="filter_rang"></div>
-<div class="item1" id="filter_years"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="item1" id="calcular"></div>
-
+<div id="page_two">
+    <div class="item1" id="filter_rang"></div>
 </div>
 
+<div id="page_three">
+    <div class="item1" id="filter_years"></div>
+</div>
+
+<div id="page_four">
+    <div class="item1" id="order_years"></div>
+</div>
+
+<div id="page_five">
+    <div class="item1" id="calcular"></div>
+</div>
+  
 </section>
 
 <footer>
